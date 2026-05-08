@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "name": "es-YYA-2025",
+  "displayName": "Spanish (YYA 2005)",
+  "language": "es-419",
+  "license": "MIT",
+  "extends": null,
+  "source": "my mind palace (put references for phoneme freqs here lmao).",
+  "phonemes": {
