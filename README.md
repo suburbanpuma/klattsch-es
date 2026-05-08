@@ -1,5 +1,5 @@
 # klattsch
-
+## THIS IS VERY UNFINISHED. IT WONT BUILD.
 A fork of the one and only primitive parallel-formant speech synthesizer in the browser, klattsch. Late-70s / early-80s tier (Votrax, SAM), now with Spanish!
 
 The name is a portmanteau of *Klatt* (Dennis Klatt, the formant-synth pioneer) and *Klatsch* (German for gossip / casual chat).
