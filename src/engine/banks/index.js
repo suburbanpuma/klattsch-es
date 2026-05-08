@@ -2,7 +2,7 @@
 
 import { bundled } from './bundled.js';
 
-const DEFAULT_BANK = 'klatt1980-en';
+const DEFAULT_BANK = 'es-yya-2025';
 
 const registry = new Map();
 const resolvedCache = new Map();
