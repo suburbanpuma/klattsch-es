@@ -1,6 +1,6 @@
 # klattsch
 
-A primitive parallel-formant speech synthesizer in the browser. Late-70s / early-80s tier (Votrax, SAM).
+A fork of the one and only primitive parallel-formant speech synthesizer in the browser, klattsch. Late-70s / early-80s tier (Votrax, SAM), now with Spanish!
 
 The name is a portmanteau of *Klatt* (Dennis Klatt, the formant-synth pioneer) and *Klatsch* (German for gossip / casual chat).
 
@@ -10,7 +10,7 @@ The name is a portmanteau of *Klatt* (Dennis Klatt, the formant-synth pioneer) a
 
 ## What it does
 
-You type a phoneme string in [ARPABET](https://en.wikipedia.org/wiki/ARPABET), with optional directives, and the computer says it.
+You type a phoneme string in [ARPABET](https://en.wikipedia.org/wiki/ARPABET), Romaji, or with the [YYA Spanish Phonetic Alphabet](https://github.com/YYAlliance/spanish-phoneset/) with optional directives, and the computer says it.
 
 ```
 HH AH L OW                        hello, default voice
@@ -22,14 +22,6 @@ r200 bC#4 ( HH AH ) ( L OW )      sung syllables, one note per group
 ```
 
 See the in-app `syntax help` panel for the full directive table.
-
-## Installation
-
-```bash
-npm install klattsch
-```
-
-The same package works as a CLI, as an importable engine in Node, and as an embeddable engine + AudioWorklet in the browser. Zero runtime dependencies.
 
 ## Usage
 
@@ -114,24 +106,9 @@ node.port.postMessage({ type: 'schedule', schedule });
 
 `klattsch` is built and maintained by [Tony Gies](https://github.com/tgies). For studios, indie developers, and agencies integrating klattsch into a shipped product, consulting is available through his consultancy, Crash United, LLC.
 
-### Support Offerings
-
-| Service | Description |
-|---------|-------------|
-| **Game / app integration** | Wiring klattsch into your engine (Unity, Godot, web, Electron, Flutter), with dialog-system glue and tooling for non-programmer collaborators (writers, sound designers) |
-| **Custom character voices** | Crafting a recognizable voice signature for a specific character: formant tuning, prosody templates, phoneme calibration, voice tests against scripted dialogue |
-| **Audio pipeline work** | Routing klattsch through your DSP graph: mixing with music, ducking, environmental effects (reverb, distortion, radio filtering), multi-voice ensembles, dynamic vocal sizing |
-| **Language / phoneme expansion** | Non-English phoneme tables, alternate transcription formats, custom symbol sets for stylized worlds (alien races, fantasy languages, in-universe scripts) |
-| **Performance tuning** | Real-time constraints (game audio thread, low-latency targets), WASM/Rust ports, embedded or constrained-runtime targets |
-| **Custom DSP features** | Cascade synthesis, additional formants, LPC pre-filtering, vocoder modes, custom synth extensions beyond the included parallel-resonator engine |
-| **Priority bug fixes** | Reported issues triaged and patched ahead of the public queue, with backports to your pinned version |
-| **Workshops / talks** | Formant synthesis, retro speech tech, or DSP fundamentals for your team |
-
-For pricing, scoping, or anything not listed above, email **[support@crashunited.com](mailto:support@crashunited.com)** to discuss your project.
-
 ### Sponsorship
 
-To support ongoing development without a formal contract, [GitHub Sponsors](https://github.com/sponsors/tgies) or [Ko-fi](https://ko-fi.com/crashunited) are the simplest paths.
+To support ongoing development without a formal contract, [GitHub Sponsors](https://github.com/sponsors/tgies) or [Ko-fi](https://ko-fi.com/crashunited) are the simplest paths. SUPPORT TGIES, THIS PROJECT IS SUPER COOL!
 
 ## License
 
