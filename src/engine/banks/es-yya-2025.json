@@ -5,7 +5,7 @@
   "language": "es-419",
   "license": "MIT",
   "extends": null,
-  "source": "my mind palace. values for A, I taken from Mohtari-Tanaka et al. values for E, O from .hecko. values for B, CH, D, DH, F, G, M, N, NG, P, S, SH, T, W, Y, Z from Klatt.",
+  "source": "dummy phones: K, JJ, L, R, X. missing phones: BH, GH, NY, RR. my mind palace. values for A, I taken from Mohtari-Tanaka et al. values for freq U from Díaz A., S., Cisternas L., P., & López B., I. (2015). values for E, O from .hecko. values for B, CH, D, DH, F, G, M, N, NG, P, S, SH, T, W, Y, Z from Klatt.",
   "phonemes": {
     "A": {
       "voicing": 1,
@@ -37,9 +37,9 @@
     },
     "U": {
       "voicing": 1,
-      "F1": 0, "F2": 0, "F3": 0,
-      "BW1": 0, "BW2": 0, "BW3": 0,
-      "A1": 0, "A2": 0, "A3": 0,
+      "F1": 400, "F2": 1350, "F3": 2930,
+      "BW1": 60, "BW2": 130, "BW3": 150,
+      "A1": 1.0, "A2": 0.9, "A3": 0.7,
       "ipa": "u", "example": "[u]no"
     },
     "B": {
@@ -48,9 +48,8 @@
       "BW1": 60, "BW2": 110, "BW3": 130,
       "A1": 0.5, "A2": 0.2, "A3": 0.2,
       "isStop": true
-      "ipa": "B", "example": "[b]ota"
+      "ipa": "b", "example": "[b]ota"
     },
-    BH β
     "CH": {
       "voicing": 0,
       "F1": 350, "F2": 1800, "F3": 2820,
@@ -84,10 +83,26 @@
       "A1": 0.5, "A2": 0.5, "A3": 0.4,
       "isStop": true
     },
-    GH
-    K
-    JJ
-    L
+    "K_KUS": {
+      "voicing": 0,
+      "F1": 300, "F2": 1990, "F3": 2850,
+      "BW1": 250, "BW2": 160, "BW3": 330,
+      "A1": 0, "A2": 0.5, "A3": 0.4,
+      "isStop": true
+    },
+    "JJ_JH": {
+      "voicing": 0.5,
+      "F1": 260, "F2": 1800, "F3": 2820,
+      "BW1": 60, "BW2": 80, "BW3": 270,
+      "A1": 0.4, "A2": 0.4, "A3": 0.5,
+      "isStop": true
+    },
+    "L_LUS": {
+      "voicing": 1,
+      "F1": 310, "F2": 1050, "F3": 2880,
+      "BW1": 50, "BW2": 100, "BW3": 280,
+      "A1": 0.8, "A2": 0.7, "A3": 0.5
+    },
     "M": {
       "voicing": 1,
       "F1": 270, "F2": 1270, "F3": 2130,
@@ -100,7 +115,6 @@
       "BW1": 40, "BW2": 300, "BW3": 300,
       "A1": 0.7, "A2": 0.2, "A3": 0.12
     },
-    NY
     "NG": {
       "voicing": 1,
       "F1": 270, "F2": 2000, "F3": 2700,
@@ -114,8 +128,14 @@
       "A1": 0.1, "A2": 0.2, "A3": 0.25,
       "isStop": true
     },
-    R
-    RR
+    "R_DX": {
+      "voicing": 0.6,
+      "F1": 255, "F2": 1325, "F3": 2740,
+      "BW1": 55, "BW2": 100, "BW3": 225,
+      "A1": 0.65, "A2": 0.55, "A3": 0.50,
+      "isStop": true,
+      "ipa": "ɾ", "example": "o[r]o"
+    }
     "S": {
       "voicing": 0,
       "F1": 320, "F2": 1390, "F3": 5500,
@@ -141,7 +161,12 @@
       "BW1": 50, "BW2": 80, "BW3": 60,
       "A1": 0.8, "A2": 0.7, "A3": 0.5
     },
-    X
+    "X_HH": {
+      "voicing": 0,
+      "F1": 500, "F2": 1500, "F3": 2500,
+      "BW1": 300, "BW2": 200, "BW3": 300,
+      "A1": 0.4, "A2": 0.4, "A3": 0.3
+    },
     "Y": {
       "voicing": 1,
       "F1": 260, "F2": 2070, "F3": 3020,
